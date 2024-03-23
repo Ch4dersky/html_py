@@ -20,3 +20,25 @@ p {
     background-color: #c5c5c5; /* Kolor tła strony internetowej */
     color: #333333; /* Kolor tła strony internetowej*/ 
 }
+
+h2 {
+    animation: color-change 2s infinite;
+  }
+    @keyframes color-change {
+        0% {
+        color: blue;
+        font-size: 20px;
+        }
+
+        50% {
+        color: red;
+        }
+
+        100% {
+        color: blue;
+        }
+    }
+
+    h1 {
+        animation: color-change 3s infinite;
+    }
